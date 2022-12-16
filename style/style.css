@@ -1,16 +1,12 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-ul {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-}
-li {
+.my-card {
   width: calc(100% / 3);
+  margin: 10px 0;
+  padding: 45px;
+}
+body {
+  background-color: #1d2d3c;
 }
 img {
-  width: 100%;
+  width: 200px;
+  height: 200px;
 }
