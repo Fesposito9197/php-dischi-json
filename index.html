@@ -10,7 +10,16 @@
     <title>PHP Dischi JSON</title>
   </head>
   <body>
-    <div id="app">{{ message }}</div>
+    <div id="app">
+      <ul>
+        <li v-for="music in Music">
+          <img :src="music.poster" />
+          <h3>{{music.title}}</h3>
+          <p>{{music.author}}</p>
+          <p>{{music.year}}</p>
+        </li>
+      </ul>
+    </div>
     <script src="js/main.js"></script>
   </body>
 </html>
