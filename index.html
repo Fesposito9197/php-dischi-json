@@ -20,7 +20,7 @@
       <div class="container">
         <div class="d-flex flex-wrap justify-content-between gx-2">
           <div v-for="music in Music" class="my-card text-center">
-            <img :src="music.poster" />
+            <img :src="music.poster" :alt="music.title" />
             <h3 class="text-white">{{music.title}}</h3>
             <p class="text-white">{{music.author}}</p>
             <p class="text-white">{{music.year}}</p>
